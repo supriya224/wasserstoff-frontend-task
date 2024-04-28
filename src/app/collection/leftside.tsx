@@ -1,30 +1,29 @@
 import React from "react";
 import MainLayout from "../layouts/MainLayout";
 import Marquee from "react-fast-marquee";
+import Slider from "./slider";
 
 const Leftside: React.FC = () => {
   return (
-    <MainLayout>
+    <MainLayout>  
       <section>
-        <div>
-          <h3>Explore your first Collectible</h3>
-          <h4>Meta Lives</h4>
-          <h4>Live in Astrix</h4>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
-            deleniti autem iste quae dolorem, saepe porro minima ipsum mollitia
-            exercitationem pariatur laboriosam cum excepturi repellendus soluta.
-            Exercitationem tenetur nulla.
-          </p>
-          <div>
-            <h4>22k people intrested</h4>
-            {/* <mar */}
-            {/*             
-            <Marquee direction="up" className="w-32 h-32">
-              I can be a React component, multiple React components, or just
-              some text.
-            </Marquee> */}
-            {/* <marquee direction="up">This text will scroll from bottom to up</marquee> */}
+        <div className="w-full h-screen bg-red-900">
+          <div className="mb-7 gap-9 p-9">
+            <h3 className="text-3xl font-bold text-left">
+              Explore your first Collectible
+            </h3>
+            <h3 className="text-6xl font-bold py-4">Meta Lives</h3>
+            <h3 className="text-2xl font-bold py-4">Live in Astrix</h3>
+            <p className="text-left text-sm font-bold w-72 py-4">
+              Lorem ipsum dolor sit ame48t consectetur adipisicing elit.
+              Repellat deleniti autem iste quae dolorem, saepe porro minima
+              ipsum mollitia exercitationem.
+            </p>
+            <h3 className="text-lg my-2 font-bold ">22k people intrested</h3>
+          </div>
+
+          <div className="">
+            <Slider images={[]} />
           </div>
         </div>
       </section>

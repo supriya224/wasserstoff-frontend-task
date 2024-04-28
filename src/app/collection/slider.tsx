@@ -7,7 +7,7 @@ import IMG from "../../assets/img.jpeg"
 const Slider: React.FC<{ images: string[] }> = () => {
   return (
     <div className="flex items-center justify-center w-full overflow-hidden">
-      <div className="max-w-lg">
+      <div className="max-w-md">
         <h4>collectible</h4>
         <div>
         <Swiper 
