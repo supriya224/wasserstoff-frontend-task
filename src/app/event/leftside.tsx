@@ -10,8 +10,8 @@ const Leftside: React.FC = () => {
   return (
     <MainLayout>
       <section>
-        <div className="w-full h-screen ">
-          <div className="mb-3 gap-9 p-9">
+        <div className="w-full h-screen   ">
+          <div className="mb-7 gap-9 p-9">
             <h3 className="text-3xl font-bold text-left">
               Explore Your First Event
             </h3>

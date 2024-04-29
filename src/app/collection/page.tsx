@@ -8,7 +8,7 @@ const CollectibleData: NextPage = () => {
   return (
     <section className="bg-zinc-900">
       <div>
-        <h3 className="text-6xl text-yellow-400 font-extrabold">Astrix.</h3>
+        <h3 className="text-6xl text-yellow-400 font-extrabold px-9 pt-2">Astrix.</h3>
         <h3 className="text-9xl font-extrabold text-zinc-800 w-1/2 pt-32 fixed">
           Astirx collection Event
         </h3>
