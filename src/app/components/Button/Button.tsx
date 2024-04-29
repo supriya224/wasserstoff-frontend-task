@@ -9,7 +9,7 @@ const Button = () => {
             <Link href="/event" >Events</Link>
             <Link href="/collection" >Collections</Link>
         </div>
-        <button type='button' className='bg-yellow-400 text-2xl font-extrabold rounded-xl px-2 mb-3'>
+        <button type='button' className='bg-yellow-400 text-xl font-extrabold rounded-xl py-1 px-2 mb-3'>
             Join Waitlist
         </button>
     </div>

@@ -10,7 +10,7 @@ const ImageSlider: React.FC<{ images: string[] }> = () => {
       <div className="max-w-4xl px-2">
         <Swiper
          modules={[Autoplay]}
-         autoplay
+         autoplay={{ delay: 900 }}
           spaceBetween={15}
           slidesPerView={3}
           onSlideChange={() => console.log("slide change")}
